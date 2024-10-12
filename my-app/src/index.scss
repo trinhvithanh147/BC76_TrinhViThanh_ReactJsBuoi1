@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    padding-right: calc(1.5rem* 0.5);
+    padding-left: calc(1.5rem* 0.5);
+    width: 100%;
+}
+.nav {
+  .nav_content {
+    .nav_right {
+      ul {
+        li {
+          .nav_link {
+            display: block;
+            padding: 8px;
+            color: rgba(255, 255, 255, 0.55);
+            text-decoration: none;
+            &:hover {
+              color: rgba(255, 255, 255, 0.75);
+            }
+          }
+          .nav_link.active {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.header {
+  .header_content {
+    background-color: rgb(248, 249, 250);
+    button{
+        border: 1px solid #0d6efd;
+        display: inline-block;
+        &:hover{
+            color: #fff;
+            background-color: #0b5ed7;
+            border-color: #0a58ca;
+        }
+    }
+
+  }
+}
+.section{
+    .section_content{
+        .section_item{
+        background-color: rgb(248, 249, 250);
+    }
+    }
+}
+.card{
+    .card_body{
+        .card_icon{
+            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+            background-color: rgb(3, 110, 253);
+            line-height: 4rem;
+            color: #fff;
+            margin-bottom: 1.5rem;
+            margin-top: -1.5rem;
+        }
+    }
+}
+@media (min-width: 320px) {
+    .container {
+        min-width: 320px;
+    }
+    .fs-4 {
+        font-size: calc(1.275rem + 0.3vw) !important;
+    }
+}
+@media screen and (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+     .container {
+      max-width: 720px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+    .fs-4 {
+        font-size: 1.5rem !important;
+    }
+    
+  }
+  @media screen and (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
