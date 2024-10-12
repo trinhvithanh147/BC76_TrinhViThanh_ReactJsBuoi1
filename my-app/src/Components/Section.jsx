@@ -1,7 +1,7 @@
 import React from 'react'
 const Section = () => {
     return (
-        <div className='pt-6 section'>
+        <div className='pt-6 section overflow-hidden'>
             <div className="container lg:px-12">
                 <div className="section_content grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mb-12 gap-12">
                     <div className="section_item rounded-md">

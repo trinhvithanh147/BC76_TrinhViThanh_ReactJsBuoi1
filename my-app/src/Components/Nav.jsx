@@ -1,7 +1,7 @@
 import React from 'react'
 const Nav = () => {
     return (
-        <div className='nav bg-[rgb(33,37,41)] py-2'>
+        <div className='nav bg-[rgb(33,37,41)] py-2 overflow-hidden'>
             <div className="container lg:px-12">
                 <div className="flex justify-between nav_content items-center">
                     <div className="nav_left">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='py-12 header'>
+    <div className='py-12 header overflow-hidden'>
         <div className="container lg:px-12">
             <div className="header_content p-6 lg:p-12 text-center rounded-[0.5rem]">
                 <div className="m-7 lg:m-12">
